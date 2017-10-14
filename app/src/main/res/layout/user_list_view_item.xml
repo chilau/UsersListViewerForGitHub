@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<android.support.v7.widget.LinearLayoutCompat
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<ImageView
+			android:id="@+id/userAvatarImageView"
+			android:layout_width="?android:attr/listPreferredItemHeight"
+			android:layout_height="?android:attr/listPreferredItemHeight"
+			android:background="@color/colorPrimary"/>
+
+		<TextView
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/userLoginTextView"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:gravity="start|center_vertical"
+            android:layout_marginLeft="10dp"
+			android:minHeight="?android:attr/listPreferredItemHeight"/>
+
+	</android.support.v7.widget.LinearLayoutCompat>
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/userRepositoriesTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:textSize="12sp"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:visibility="gone"
+		android:layout_marginTop="5dp"
+		android:layout_marginBottom="5dp"/>
+	
+</LinearLayout>

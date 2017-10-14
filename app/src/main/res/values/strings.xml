@@ -1,0 +1,14 @@
+<resources>
+	
+	<string name="app_name">Users list viewer for GitHub</string>
+	
+	<string name="client_id">af1ccab4ca27e7db6cb1</string>
+	<string name="client_secret">e57f12668516bd9227c933b7b321fad26b29256e</string>
+	<string name="callback_scheme">torikos-oauth-callback-scheme</string>
+	<string name="callback_host">callback</string>
+	
+	<string name="users_api_url">https://api.github.com/users</string>
+	
+	<string name="callback_url_pattern">%1$s://%2$s</string>
+
+</resources>
